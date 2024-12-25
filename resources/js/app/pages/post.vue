@@ -109,7 +109,7 @@
                         Post
                     </div>
                     <button type="button" class="modal-close" @click="closeManageModal()">
-
+                        <img :src="'/assets/svg/close.svg'" width="25" height="25" alt="close" />
                     </button>
                 </div>
                 <div class="modal-body">

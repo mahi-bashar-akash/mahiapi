@@ -206,6 +206,7 @@
     .crud-body {
         width: 100%;
         height: calc(100vh - 220px);
+        overflow-y: auto;
 
         .have-data {
             display: grid;
@@ -213,7 +214,6 @@
             justify-content: flex-start;
             align-items: flex-start;
             grid-gap: 20px;
-            overflow-y: auto;
 
             @media screen and (max-width: 1366px) {
                 grid-template-columns: repeat(3, 1fr);
@@ -418,6 +418,18 @@
                         font-size: 25px !important;
                     }
                     font-size: 25px !important;
+                }
+
+                .modal-close {
+                    width: 35px;
+                    height: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    outline: none;
+                    border: none;
+                    box-shadow: 0 0 0.525rem 0 #dee2e6;
+                    cursor: pointer;
                 }
 
             }
